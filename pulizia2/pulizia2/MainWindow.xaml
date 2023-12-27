@@ -1,0 +1,40 @@
+﻿<Window x:Class="pulizia2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Pulizia" Height="750" Width="1000" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Height="750" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="74*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle HorizontalAlignment="Left" Height="175" VerticalAlignment="Top" Width="1000" Fill="#FF0D4875" Grid.ColumnSpan="2"/>
+        <!--titolo-->
+        <Label x:Name="titolo" Content="Analisi del pc necessaria" HorizontalAlignment="Left" Height="56" Margin="57,10,0,0" VerticalAlignment="Top" Width="379" Foreground="White" FontFamily="Arial" FontSize="30" Grid.ColumnSpan="2"/>
+        <!--Sottotitolo-->
+        <Label Content="Spazio da pulire:" HorizontalAlignment="Left" Height="56" Margin="57,71,0,0" VerticalAlignment="Top" Width="379" Foreground="White" FontFamily="Arial" FontSize="22" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Label Content="Ultima Analisi:" HorizontalAlignment="Left" Height="56" Margin="57,127,0,0" VerticalAlignment="Top" Width="379" Foreground="White" FontFamily="Arial" FontSize="22" FontWeight="Bold" Grid.ColumnSpan="2"/>
+
+        <Label x:Name="data" Content="Mai" HorizontalAlignment="Left" Height="56" Margin="246,127,0,0" VerticalAlignment="Top" Width="380" Foreground="White" FontFamily="Cascadia Code" FontSize="22" Grid.ColumnSpan="2"/>
+        <Label x:Name="spazio" Content="??? Mb" HorizontalAlignment="Left" Height="56" Margin="265,71,0,0" VerticalAlignment="Top" Width="379" Foreground="White" FontFamily="Cascadia Code" FontSize="22" Grid.ColumnSpan="2"/>
+        <Button Content="ANALIZZA" HorizontalAlignment="Left" Margin="200,51,0,0" VerticalAlignment="Top" Height="70" Width="294" Background="#FF0D4875" BorderThickness="6,6,6,6" BorderBrush="#FFFBF9F9" FontFamily="Arial" FontSize="30" Foreground="#FFFFFBFB" Grid.Column="1" Click="Button_Analisi_Click"/>
+
+        <Rectangle HorizontalAlignment="Left" Height="11" VerticalAlignment="Top" Width="1000" Fill="#FFADACAC" Margin="0,175,0,0" StrokeThickness="0" Grid.ColumnSpan="2"/>
+
+        <!--<Contenuto-->
+        <Button x:Name="pulizia" Content="Pulizia" HorizontalAlignment="Left" Margin="39,211,0,0" VerticalAlignment="Top" Height="164" Width="397" Background="#FF0D4875" BorderThickness="6,6,6,6" BorderBrush="#FFFBF9F9" FontFamily="Arial" FontSize="30" Foreground="#FFFFFBFB" Grid.ColumnSpan="2" Click="Button_Pulisci_Click"/>
+        <Button Content="Cronologia" HorizontalAlignment="Left" Margin="39,395,0,0" VerticalAlignment="Top" Height="164" Width="397" Background="#FF0D4875" BorderThickness="6,6,6,6" BorderBrush="#FFFBF9F9" FontFamily="Arial" FontSize="30" Foreground="#FFFFFBFB" Grid.ColumnSpan="2" Click="Button_Misto_Click"/>
+        <Button Content="Aggiornamento" HorizontalAlignment="Center" Margin="0,211,0,0" VerticalAlignment="Top" Height="164" Width="397" Background="#FF0D4875" BorderThickness="6,6,6,6" BorderBrush="#FFFBF9F9" FontFamily="Arial" FontSize="30" Foreground="#FFFFFBFB" Click="Button_Max_Click" Grid.Column="1"/>
+        <Button Content="Sito web" HorizontalAlignment="Center" Margin="0,395,0,0" VerticalAlignment="Top" Height="164" Width="397" Background="#FF0D4875" BorderThickness="6,6,6,6" BorderBrush="#FFFBF9F9" FontFamily="Arial" FontSize="30" Foreground="#FFFFFBFB" Grid.Column="1" Click="Button_Web_Click"/>
+        <Image HorizontalAlignment="Left" Height="86" Margin="132,434,0,0" VerticalAlignment="Top" Width="87" Source="/icons8-domaine-50.png" Grid.Column="1"/>
+
+        <!--fOOTER-->
+        <Rectangle HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="1000" Fill="#FFADACAC" Margin="0,650,0,0" StrokeThickness="0" Grid.ColumnSpan="2"/>
+        <Label Content="Fake Copyrigth" Margin="10,662,0,0" VerticalAlignment="Top" Width="990" FontFamily="Arial" FontSize="20" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
+
+        <Rectangle x:Name="banner" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="1000" Fill="#FFE27272" Margin="0,700,0,0" StrokeThickness="0" Grid.ColumnSpan="2" Visibility="Hidden"/>
+        <Label x:Name="actuTxt" Content="Fake Copyrigth" Margin="10,704,0,0" VerticalAlignment="Top" Width="990" FontFamily="Arial" FontSize="20" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" Visibility="Hidden"/>
+    </Grid>
+</Window>

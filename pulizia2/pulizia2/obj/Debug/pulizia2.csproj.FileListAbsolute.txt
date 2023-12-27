@@ -1,0 +1,14 @@
+C:\Users\utente\source\repos\pulizia2\pulizia2\bin\Debug\pulizia2.exe.config
+C:\Users\utente\source\repos\pulizia2\pulizia2\bin\Debug\pulizia2.exe
+C:\Users\utente\source\repos\pulizia2\pulizia2\bin\Debug\pulizia2.pdb
+C:\Users\utente\source\repos\pulizia2\pulizia2\obj\Debug\pulizia2.csproj.AssemblyReference.cache
+C:\Users\utente\source\repos\pulizia2\pulizia2\obj\Debug\MainWindow.g.cs
+C:\Users\utente\source\repos\pulizia2\pulizia2\obj\Debug\App.g.cs
+C:\Users\utente\source\repos\pulizia2\pulizia2\obj\Debug\pulizia2_MarkupCompile.cache
+C:\Users\utente\source\repos\pulizia2\pulizia2\obj\Debug\MainWindow.baml
+C:\Users\utente\source\repos\pulizia2\pulizia2\obj\Debug\pulizia2.g.resources
+C:\Users\utente\source\repos\pulizia2\pulizia2\obj\Debug\pulizia2.Properties.Resources.resources
+C:\Users\utente\source\repos\pulizia2\pulizia2\obj\Debug\pulizia2.csproj.GenerateResource.cache
+C:\Users\utente\source\repos\pulizia2\pulizia2\obj\Debug\pulizia2.csproj.CoreCompileInputs.cache
+C:\Users\utente\source\repos\pulizia2\pulizia2\obj\Debug\pulizia2.exe
+C:\Users\utente\source\repos\pulizia2\pulizia2\obj\Debug\pulizia2.pdb
